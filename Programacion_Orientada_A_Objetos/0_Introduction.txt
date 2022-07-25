@@ -1,0 +1,125 @@
+
+Paradigma de programación orientado a objetos
+	* Principios bajo los cuales se construye el paradigma
+	* Elementos que los lenguajes de programacion provee para aplicar estos principios
+	* Temas: Herencia - Polimorfismo - Abstracción - Encapsulación
+	* Clases, objetos, entre otros más.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Paradigma: Estilo o forma de solucionar problemas. 
+Terminos linguisticos:  Griego: "Para" = "Junto a"  + "Digma": Modelo o ejemplo -> Para + Digma: Conjunto de cosas que sirven como un modelo o un ejemplo.
+
+
+
+Las caracteristicas de un lenguaje de programacion estan definidas por el o los paradigmas que soporta. Este paradigma guia las definiciones de los elementos y las estructura de un lenguaje y asi como la implementacion del codigo.
+
+Ejemplo: 
+	* P. orientado a objetos: Las soluciones se organizan y se reprensetan como objetos
+	* P. funcional: Utilizan funciones
+	* P. estructural: Utilizan estructuras
+
+Otros paradigmas: 
+	Imperativo, declarativo, estructural, funcional, entre muchos otros.
+
+Proposito del paradigma: 
+	* Guiar la implementacion del paradigma mediante las herramientas y elementos del lenguaje de programación a utilizar.
+	* Es importante estudiar y comprender los elementos, algoritmos, estructuras y otras caracteristicas del lenaguaje de programaciòn para poder cumplir con el proposito del paradigma.
+La programacion orientada a objetos:
+	* Se promueven pensar y organizar las soluciones con OBJETOS.
+	* Por lo tanto, los lenguajes de programacion que implementan el paradigma de programacion orientada a objetos deben:
+		- Otorogas las herramientas y elementos necesarios para poder representar los objetos y las soluciones como objetos.	
+	
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Programacion orientada a objetos:
+	* Paradigma de programacion basado en la creacion de objetos que pueden contener datos y funciones
+		- El paradigma busca representar el algoritmo y codigo con objetos, tal cual como en la vida real.
+		- El paradigma se basa en los principios de:
+			/ Abstracción
+			/ Encapsulación
+			/ Herencia
+			/ Polimorfismo
+		++ Proximamente: ¿Que son estos conceptos y como se implementan en el lenguaje de programación?
+
+	* Proposito central
+		- Crear objetos que:
+			/ Sean independientes
+			/ No expongan sus detalles
+			/ Se puedan integrar con otros objetos
+
+¿Qué es un objeto? - Es una combinación de propiedades o atributos que lo describen y una serie de metodos o acciones que puede ejecutar el objeto.
+	
+El objeto:
+	* Puede almacenar información en sus propiedades
+	* Puede modificar sus propiedades de manera independiente de otros objetos.
+
+	Ejemplo: 
+		* El objeto "marcador" tiene las siguientes propiedades
+			- Color
+			- Tamaño
+			- Tinta disponible
+			- Material construido
+
+		El objeto "marcador" Marcador1 puede tener distinto color, tamaño, tinta disponible y tipo de material construido a un objeto de tipo "marcador" Marcador2.
+
+Entonces, cada objeto guarda un valor que le perteneces solo a el en sus propiedades.
+
+Importante!:
+	* En vez de ser el objeto una "unidad" esta compuesto por varios objetos.
+	* El objeto "marcador" es la composición de varios objetos: Punta, material de construcción, color, entre otros.
+	* Cada uno de estos objetos cumplen con una responsabilidad especifica y sencilla.
+		- La punta absorbe la tinta.
+		- El material de construccion soporta todo junto
+	* De esta manera, se piensa en el objeto marcador no como algo complejo, sino como un conjunto de objetos.
+
+Por lo tanto, se busca con el paradigma de programacion orientada a objetos:
+	
+	* Crear pequeños objetos simples con responsabiidades sencillas que en conjunto puedan solucionar problemas mas complejos. De esta manera nos ayuda a separar el problema en pequeñas y distintas responsabilidades
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Alan Kay - Acuño el termino de Oriented Object Programming.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+¿Cómo programar y diseñar soluciones pensando en objetos?
+	* Primero: ¿Cómo puedo generar estos objetos?
+	* Dependiendo del lenguaje
+		- A partir de estructuras
+		- A partir de clases (Forma mas popular)
+		- A partir de prototipos
+
+¿Qué son las clases?
+
+Clases:  Documento en donde se define:
+	* Comportamiento del objeto
+	* Propiedades que tiene el objeto
+	* Acciones que puede realizar el objeto
+	* Como se usara el objeto, etc
+		- A partir de ello, se pueden generar distintos objetos de la misma clase.
+		- Cada objeto creado a partir de la misma clase conserva su propio estado.
+		- Cada objeto podra modificar los valores de sus propiedades sin modificar a ningún otro.
+
+
+Sin addentrarnos mucho en la sintaxis, quizas loa definicion de clase poara un objeto marcador podria ser la siguiente
+
+Ejemplo: Clase Marcador
+	* Color - String
+	* Marca - String
+	* Material - String 
+	* diasDeUso - int
+	* pintar() - función
+	* removerPunta() - funcion
+
+		- A partir del documento (clase) que especifica el comportamiento de las caracteristicas del objeto
+		  se pueden crear muchos objetos sin tener que repetir las especificaciones de funcionamiento para cada uno de ellos.
+
+Por ejemplo: Perfiles de usuarios en redes sociales
+
+Importante:
+	* Las clases tienen caracteristicas que nos permiten programar basandonos en los principios del paradigma orientado a objetos
+	* A partir de la clases, se crean los objetos
+	* Cada	objeto posee un estado propio y distinto a objetos que se han producido de la misma clase.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

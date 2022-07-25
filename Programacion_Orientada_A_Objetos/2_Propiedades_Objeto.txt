@@ -1,0 +1,26 @@
+Los terminos "atributos" y "propiedades" pueden ser intercambiables al hablar de objetos.
+
+En JavaScript:
+    * Los objetos son un conjunto de propiedades
+
+En Python:
+    * Los objetos tienen atributos y ademas pueden tener propiedades
+
+En general, si un objeto tiene atributos o propiedades depende del lenguaje de programación que se este hablando.
+
+Las propiedades o atributos de un objeto son una colección de datos que el objeto guarda y que tiene relacion con la tarea a cumplir del objeto.
+
+Por ej. Pintar() -> Se esperan propiedades de: Color, Nivel de Tinta.
+Por ej. Perfil() -> Se esperan propiedades de: Nombre, correo electronico, edad, etc.
+
+Propiedades a destacar de un objeto en el paradigma de programacion orientado a objetos:
+    * Las propiedades de cada objeto son independientes y distintas de otros objetos.
+    * Se denomina "estado del objeto" al valor de las propiedades de un objeto.
+        - Los objetos proveeran de metodos para modificar sus propiedades
+            / De esta manera, se evita exponer las propiedades directamente para la modificación.
+
+    * La información se asigna a las propiedades del objeto.
+        - El tipo de información a asignar puede ser:
+            / Entero                - Int
+            / Cadena de caracteres  - String
+            / arreglos              - Arrays
