@@ -5,7 +5,6 @@
 """
 class User:
     name = "default"
-    pass
 
 print("Atributos de la clase ´User´",User.__dict__)
 
