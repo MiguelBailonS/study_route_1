@@ -1,0 +1,15 @@
+El método constructor:
+    * Lugar perfecto para inicializar nuestros objetos.
+    * Se ejecuta cada que se cree una nueva instancia de un objeto de la clase
+    *  
+
+Tip:
+    * No realizar métodos constructores complejos
+        - Para evitar bugs. 
+    * El constructor debe mantenerse simple.
+    * La tarea de un constructor debe inicializar los valores de un objeto.
+    * Ideas mas complejas:
+        - Inyección de dependencias - ¿Qué es? 
+            / Su proposito es disminuir la lógica involucrada en el constructor y hacerlo más simple.
+    * Como las clases, los métodos y funciones, tienen un proposito único, el del constructor tambien:
+        - Construir un nuevo objeto inicializando sus valores.

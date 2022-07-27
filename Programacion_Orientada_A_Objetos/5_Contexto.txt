@@ -1,0 +1,20 @@
+Lenguajes de programacion orientada a objetos:
+    * Identificar el objeto con el que se trabaja dentro de la clase: "this" o "self".
+        - A partir de la definición de una clase, se pueden crear diferentes objetos.
+
+El contexto:
+    * Termino linguistico del Latin "Contextus": Rodea fisicamente o simbolicamente a algo.
+    * Es una de las partes mas importantes de la comunicacion porque a aprtir de el una expresion o una accion puede cambiar drasticamente. 
+    * En algun lugar una palabra puede ser parte del vocabulario habitual u ofensiva. Dependiendo de la circunstancia/contexto.
+        - Esta circunstancia es lo que rodea simbolicamente a la expresion.Eso es lo que llamamos al contexto
+
+En programación:
+    * El contexto nos ayuda a entender en que condiciones estamos.
+    * Particularmente, el contexto es el objeto en el cual ese momento esta siendo usado. Incluyendo el valor de sus propiedades
+    * El contexto en Python esta represetando por la palabra reservada "self".
+        
+    
+
+Recuerda:
+    * En otros lenguajes de programación el contexto se representa con la palabra reservada "this"
+    * En Python, el contexto "self" se declara como el primer argumento de cualquier metodo definido en una clase.
