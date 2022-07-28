@@ -1,0 +1,19 @@
+Herencia: 
+    * El concepto de herencia, nos permite reciclar código.
+    * Permite que un objeto herede las propiedades y métodos de un objeto que llamamos Padre o base. 
+    * A partir de esta copia del padre, se puede agregar, quitar o modificar métodos/propiedades en el objeto que identificamos como hijo.
+    * La herencia permite organizar los ojbetos como una jerarquia:
+        - Cada descendiente hereda las propiedades de cada ancestro que tiene.
+    * En terminos de uso: se puede ir de lo muy general a lo más especifico
+
+En Python:
+    * Todas las clases del lenguaje heredan de la clase "Object"
+        - A partir de ahí, especializamos nuestros objetos creados.
+    * Herencia de clase.
+        - Las herencias suceden entre clases.
+
+Por ejemplo: 
+    * Animal ->(El mas general)
+    * Mascota ->(Hereda de animal)
+        - Gato ->(Hereda de mascota)
+        - Perro ->(Hereda de mascota)
