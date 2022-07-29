@@ -1,0 +1,18 @@
+La herencia:
+    * Propiedad más popular en programacion orientada a objetos.
+    * Refleja la naturaleza en como funcinoa la herencia.
+    * Es uno de los principios más utilizados.
+    * Es una forma de reutilizar codigo.
+    * Es una forma de describir nuestro programa y de agrupar clases que son similares y establecer una relacion entre ellas.
+        - La relacion entre dos clases ligadas por la herencia: se dice "Es una"
+        - Por ejemplo:
+            / Una "Pagina Legal" es una página.
+        - Si no existe esta relacion de "es una". Entonces, no deberia heredar una de la otra.
+    * Es una manera de establecer una relacion de tipo. 
+        - Por ejemplo:
+            / Una clase "perro" heredaria de una clase "mamifero".
+
+Otra forma de definir:
+    * Cuando se hereda de una clase, las modificaciones que haremos a la clase base, son de añadidura.
+    * Si durante la definicion de la clase hija, sobreescribes muchos metodos, es probable que no sea el caso correcto de usar herencia.
+    * La composición (reutilizar código)

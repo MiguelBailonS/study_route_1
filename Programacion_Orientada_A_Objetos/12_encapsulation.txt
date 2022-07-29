@@ -1,0 +1,16 @@
+Ejemplo:
+    * El teléfono es una unidad
+        - Los detalles y configuraciones del teléfono es una unidad.
+    * El telefono incluye maneras de hacer ciertas modificaciones, por ejemplo:
+        - Cambiar el brillo
+    * El funcionamiento de cambiar el brillo, se realiza por detrás de lo que ve el usuario.
+
+A traves de la encapsulacion:
+    * Los datos y su manipulación se envian como una sola unidad.
+    * Se oculta información
+    * Las propiedades del objeto se mantienen privadas
+    * Permite que las modificaciones se realicen mediante mecanismos y datos que provea la unidad (denominada "clase").
+    * Nadie mas que el objeto mismo modifica los valores de sus propiedades.
+
+Encapsulacion es tomar los datos y los mecanismos y enviarlos como una unidad. 
+    * "En Python": La clase incluye las propiedades y métodos para modificar dichas propiedades.
