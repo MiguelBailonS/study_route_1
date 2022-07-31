@@ -1,0 +1,12 @@
+A los métodos que modifican o leen los valores de las propiedades del objeto se denominan "Métodos accesores"
+
+El método "get" 
+    * Obtendra el valor actual de alguna propiedad del objeto
+
+El método "set":
+    * Cambiará el valor asignado a alguna propiedad del objeto.
+
+Para una misma propiedad, se crea el método "get" y "set".
+
+Estos métodos get y set màs los modificadores de alcancen son los pilares para la "Encapsulación".
+    * En estos métodos, como en cualquier otro, se pueden crear validaciones dentro de ellos.

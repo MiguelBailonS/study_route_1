@@ -1,0 +1,27 @@
+¿Cómo aplicar polimorfismo?
+    * Con la estrategia de interfaces. (Más popular de todas) #Pregunta: ¿Qué otras estrategias hay?
+
+El polimorfismo:
+    * Es un tipo especial de elemento en el lenguaje de programacion que permite definir la estructura que tendran
+      y que pueden compartir varios objetos.ç
+        - Ejemplo: Considera que estamos haciendo una app como paint y que pueden crearfiguras geometricas
+            / Hacesmos una interfaz de una figura con las siguientes propiedades:
+                * Ancho
+                * Alto
+                * Posicion X
+                * Posicion Y
+                * Color
+            / Esta interfaz la pueden comparetir todas las figuras.
+
+
+En Python:
+    * No existe las interfaces como en Java por lo tanto se recurre  a otra estragegia
+    * Un objeto puede ser X o Y si se comporta como X o como Y.
+        - Esta idea nace de que si un objeto suena como un pato y hace lo que un pato:
+            / Entonces debe ser un pato.
+
+Implementación en Python:
+    * No es necesario definir una interfaz
+    * Se asignan los métodos y propiedades a las clases que comparten las mismas estructuras
+    * Se detallan las propiedades para decir que todas estas clases comparten las mismas estructura 
+      sin tener que involucrar un elemtno adicional que indique esta estructura.

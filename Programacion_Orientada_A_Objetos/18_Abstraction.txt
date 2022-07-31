@@ -1,0 +1,23 @@
+Abstraccion es tomar un concepto, ignorar los detalles y poder ver el problema desde un parorama más general, mas abstracto.
+
+La abstracción en el paradigma de programación orientada a objetos:
+    * Es uno de los cuatro pilares 
+    * Ocultar detalles innecesarios y exponer lo esencial
+    * Te preocupas en "Qué hara el objeto" y no "Cómo lo hara"
+    * Hablamos del Qué y no del Cómo
+    * Se habla de ella cuando pensamos:
+        - Que tendra y que va a exponer un objeto al diseñar la clase - es abstraccion - no importa la implementación
+        - Como el diseño de mi objeto oculta los detalles de como lo hará
+
+
+Diferencia con la encapsulación:
+    * Me preocupà el "Como lo hara"
+    * Hablamos del "Como" y no del "Que"
+    * Como lo va a hacer
+        - Importa la implementacion
+        - Como esta implementacion oculta los detalles del funcionamiento del objeto
+
+Estos conceptos trabajan en conjunto para generar objetos:
+    * Simples
+    * Sencillos de usar
+    * Faciles de reemplazar 

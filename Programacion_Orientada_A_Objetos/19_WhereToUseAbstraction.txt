@@ -1,0 +1,10 @@
+Contexto:
+    Se crea una clase para obtener y agregar usuarios en las filas de un banco.
+
+De aplicar correctamente la abstraccion:
+    * Se podria crear una clase generica que solamente requiere
+        - Obtener la siguiente persona en la fila
+        - Agregar una nueva persona en la fila.
+    * No me preocupo del como
+    * Abstraigo la implementación que el consumidor de los métodos se preocupe solamente de llamar la función que requiera. (Agregar u obtener la siguiente persona.)
+

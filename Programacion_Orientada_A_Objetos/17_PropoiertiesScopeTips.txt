@@ -1,0 +1,16 @@
+El conceso general:
+    * Todas deberian empezar siendo privadas
+    * Solo se harán públlicas si se las requiere así.
+
+La mayoria de los lenguajes de programacion:
+    * Hacen las propiedades públicas
+    * Se las debe modificar explicitamente.
+
+Sin embargo, recordemos usar métodos accesores en vez de acceder de manera directa o modificar los valores.
+
+Hacen las propiedades publicas a menos que requieran un comportamiento especifico como
+    validaciones
+    O que su valor modifique otras (efectos secundarios)
+
+Si el efecto causa una de ellas, se deberia marcar la propiedad como privada y aplicar métodos accesores.
+

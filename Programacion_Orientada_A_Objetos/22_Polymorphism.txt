@@ -1,0 +1,26 @@
+Se forma de las palabra griega:
+
+Poli: Muchos
+Morf: forma
+
+Polimorfismo, de la palabra griega: 
+    * Poli: Muchos
+    * Morf: forma
+    * En POO: a la habilidad de un objeto de tomar muchas formas se le llama Polimorfismo
+    * Se aplica en clases, funciones, tipado, entre otras.
+    * Si un objeto pasa más de una prueba, es polimorfico.
+
+Si tenemos dos clase y se crea un nuevo objeto de la clase hija.
+    * Se puede decir que el objeto es de la clase hija y tambien de la clase padre.
+    * El objeto puede tomar cualquier forma: la de la clase hija o la clase padre.
+
+Una operacion se puede realizar sin importar que tipo de dato se haya enviado.
+    * Por ej: Si se quiere emplear un método que te dice cual valor es mayor y recibe como párametro
+        - Dos nùnmero:
+            / Devolvera el número mayor
+        - Dos listas
+            / Devolvera la lista con mayor elementos
+        - Dos string/cadenas
+            / Usara el orden alfabetico para conocer el mayor. 
+            
+Cada uno de estos objetos, toma la forma correspondiente para conocer el mayor.

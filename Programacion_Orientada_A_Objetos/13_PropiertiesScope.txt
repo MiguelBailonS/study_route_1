@@ -1,0 +1,15 @@
+Alcance de las propiedades: Es la caracteristica que describe que o quien puede acceder a una propiedad de nuestro objeto.
+
+
+Como acceder a la propiedad del objeto
+    1) Desde la clase que declaró la propiedad
+    2) Desde una clase que haya heredado de la clase en la cual se declaro la propiedad
+    3) A traves de la instancia creada del objeto
+
+Alcance
+    * Publico: Nivel de acesso 1, 2 y 3.
+    * Protegido: Nivel de acceso 1 y 2.
+    * Privado: Nivel de acceso 1 
+
+La posibilidad de otorgarles el alcance a nuestras propiedades nos permiten modificarlas unicamente a traves de los
+métodos que nosotros creamos.
