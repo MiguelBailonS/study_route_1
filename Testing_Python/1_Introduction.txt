@@ -1,0 +1,25 @@
+El objetivo es construir:
+    * Software de calidad
+    * Software profesional
+
+Dos bloques: Herramientas internas de Python
+    * Assert
+    * DocTest
+    * DocString
+    * Casos de Prueba
+    * Suites de Prueba
+    * Entre otros
+
+Dos siguientes bloques: Dos de las librerias más usadas comercialmente en cuanto a pruebas unitarias
+    Unitest
+    iTest
+
+Trabajaremos con los features que ambas librerias ofrecen
+    * Pro y Contras de usar u otra
+
+Requerimientos:
+    * Conocimientos de Python
+        * Funciones
+        * Clases
+        * Métodos
+    * Proyecto a testear

@@ -1,0 +1,17 @@
+Objetivo: 
+    * Realizar pruebas automatizadas con Python
+
+Se utilizán:
+    * DocTest
+    * DocString
+    * Pruebas unitarias
+    * Assert
+
+Requerimientos.
+    * Conocimientos de Python: básicos e intermedios.
+    * Python versión 3
+
+Méta: (Una vez finalizado el curso)
+    * Ser capaz de implementar métodologias  al proceso de desarrollo como:
+        - TDD o PDD
+

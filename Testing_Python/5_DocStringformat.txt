@@ -1,0 +1,41 @@
+El DocString es solo un comentario.
+
+Como comentario:
+    * Podemos añadir o quitar el contenido que nosotros queremos.
+    * Añadir o quitar contenido.
+
+Por ej. 
+    * Añadir sección de autor.
+
+    """ Determina si el string es palindromo.
+
+    Args:
+        sentence: string
+
+    Returns:
+        bool
+
+    Autor:
+        Miguel Bailón
+    """
+
+Adicionalmente, existen muchos estilos/estandares predeterminados.
+Uno de ellos:
+    * Google Style Python DocString 
+
+En Visual Studio Code, se puede utilizar el siguiente complmento para utilizar DocString
+    * autoDocstring - Python Docstring Generator
+        - Para utilizarlo, es suficiente con escribir triple comillas dobles en la linea inferior de la función 
+          que se quiere documentar.
+
+    * Ejemplo:
+        """_summary_
+
+        Args:
+            sentence (str): _description_
+
+        Returns:
+            bool: _description_
+        """
+
+
