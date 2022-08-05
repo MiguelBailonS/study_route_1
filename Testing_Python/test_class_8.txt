@@ -1,0 +1,18 @@
+>>> from 8_TestExternFiles import Users
+>>> from 8_TestExternFiles import isPalindrome
+>>> isPalindrome("Anita lava la tina")
+True
+
+>>> isPalindrome("Hola")
+False
+
+>>> frase = "Oso"
+>>> isPalindrome(frase)
+True
+>>> username = "Miguel"
+>>> password = "clave123"
+>>> user = User(username,password)
+>>> user.username == username
+True
+>>> user.password == password
+True
